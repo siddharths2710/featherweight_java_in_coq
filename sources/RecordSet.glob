@@ -1,0 +1,117 @@
+DIGEST 03052edebb54df65fef6ba86752268ac
+FRecordUpdate.RecordSet
+rec 352:359 <> Settable
+proj 368:370 <> mkT
+proj 403:408 <> mkT_ok
+binder 361:361 <> T:1
+R374:377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R373:373 RecordUpdate.RecordSet <> T:1 var
+R378:378 RecordUpdate.RecordSet <> T:1 var
+binder 418:418 <> x:4
+R426:428 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R421:423 RecordUpdate.RecordSet <> mkT:3 meth
+R425:425 RecordUpdate.RecordSet <> x:4 var
+R429:429 RecordUpdate.RecordSet <> x:4 var
+R444:446 RecordUpdate.RecordSet <> mkT meth
+R444:446 RecordUpdate.RecordSet <> mkT meth
+binder 546:546 <> x:6
+R550:552 Coq.Init.Logic <> ::type_scope:x_'='_x not
+binder 546:546 <> x:7
+R550:552 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R892:905 RecordUpdate.RecordSet <> Build_Settable constr
+binder 917:917 <> x:8
+R933:933 RecordUpdate.RecordSet <> x:8 var
+R944:944 RecordUpdate.RecordSet <> x:8 var
+not 852:852 <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>'
+binder 1370:1370 <> f:9
+binder 1387:1387 <> r:10
+R1392:1392 RecordUpdate.RecordSet <> f:9 var
+R1400:1400 RecordUpdate.RecordSet <> r:10 var
+R1647:1649 RecordUpdate.RecordSet <> mkT meth
+R1647:1649 RecordUpdate.RecordSet <> mkT meth
+R1753:1755 RecordUpdate.RecordSet <> mkT meth
+R1753:1755 RecordUpdate.RecordSet <> mkT meth
+R1753:1755 RecordUpdate.RecordSet <> mkT meth
+R1753:1755 RecordUpdate.RecordSet <> mkT meth
+R1629:1631 RecordUpdate.RecordSet <> mkT meth
+ind 2000:2005 <> Setter
+constr 2031:2033 <> set
+rec 2000:2005 <> Setter
+proj 2031:2033 <> set
+binder 2008:2008 <> R:11
+binder 2010:2010 <> T:12
+R2021:2024 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2020:2020 RecordUpdate.RecordSet <> R:11 var
+R2025:2025 RecordUpdate.RecordSet <> T:12 var
+binder 2014:2017 <> proj:13
+R2037:2037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2044:2048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2039:2042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2038:2038 RecordUpdate.RecordSet <> T:12 var
+R2043:2043 RecordUpdate.RecordSet <> T:12 var
+R2050:2053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2049:2049 RecordUpdate.RecordSet <> R:11 var
+R2054:2054 RecordUpdate.RecordSet <> R:11 var
+R2067:2069 RecordUpdate.RecordSet <> set def
+R2067:2069 RecordUpdate.RecordSet <> set def
+rec 2099:2106 <> SetterWf
+proj 2136:2141 <> set_wf
+proj 2163:2169 <> set_get
+proj 2222:2227 <> set_eq
+binder 2109:2109 <> R:16
+binder 2111:2111 <> T:17
+R2122:2125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2121:2121 RecordUpdate.RecordSet <> R:16 var
+R2126:2126 RecordUpdate.RecordSet <> T:17 var
+binder 2115:2118 <> proj:18
+R2146:2151 RecordUpdate.RecordSet <> Setter class
+R2153:2156 RecordUpdate.RecordSet <> proj:18 var
+binder 2179:2179 <> v:21
+binder 2181:2181 <> r:22
+R2203:2205 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2184:2187 RecordUpdate.RecordSet <> proj:18 var
+R2190:2192 RecordUpdate.RecordSet <> set def
+R2201:2201 RecordUpdate.RecordSet <> r:22 var
+R2199:2199 RecordUpdate.RecordSet <> v:21 var
+R2194:2197 RecordUpdate.RecordSet <> proj:18 var
+R2206:2206 RecordUpdate.RecordSet <> v:21 var
+R2209:2212 RecordUpdate.RecordSet <> proj:18 var
+R2214:2214 RecordUpdate.RecordSet <> r:22 var
+binder 2237:2237 <> f:24
+binder 2239:2239 <> r:25
+R2261:2264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2252:2254 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2242:2242 RecordUpdate.RecordSet <> f:24 var
+R2245:2248 RecordUpdate.RecordSet <> proj:18 var
+R2250:2250 RecordUpdate.RecordSet <> r:25 var
+R2255:2258 RecordUpdate.RecordSet <> proj:18 var
+R2260:2260 RecordUpdate.RecordSet <> r:25 var
+R2277:2279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2265:2267 RecordUpdate.RecordSet <> set def
+R2276:2276 RecordUpdate.RecordSet <> r:25 var
+R2274:2274 RecordUpdate.RecordSet <> f:24 var
+R2269:2272 RecordUpdate.RecordSet <> proj:18 var
+R2280:2280 RecordUpdate.RecordSet <> r:25 var
+R2297:2302 RecordUpdate.RecordSet <> set_wf meth
+R2297:2302 RecordUpdate.RecordSet <> set_wf meth
+R2385:2390 RecordUpdate.RecordSet <> Setter class
+R2385:2390 RecordUpdate.RecordSet <> Setter class
+R2485:2492 RecordUpdate.RecordSet <> SetterWf class
+R2485:2492 RecordUpdate.RecordSet <> SetterWf class
+R2540:2553 RecordUpdate.RecordSet <> Build_SetterWf constr
+R2780:2785 RecordUpdate.RecordSet <> Setter class
+R2855:2862 RecordUpdate.RecordSet <> SetterWf class
+mod 2920:2937 <> RecordSetNotations
+R3059:3061 RecordUpdate.RecordSet <> set def
+not 3032:3032 RecordSetNotations ::record_set:x_'<|'_x_'::='_x_'|>'
+R3212:3214 RecordUpdate.RecordSet <> set def
+not 3186:3186 RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>'
+R3383:3385 RecordUpdate.RecordSet <> set def
+R3394:3396 RecordUpdate.RecordSet <> set def
+R3408:3410 RecordUpdate.RecordSet <> set def
+not 3332:3332 RecordSetNotations ::record_set:x_'<|'_x_';'_x_';'_'..'_';'_x_'::='_x_'|>'
+R3558:3560 RecordUpdate.RecordSet <> set def
+R3569:3571 RecordUpdate.RecordSet <> set def
+R3583:3585 RecordUpdate.RecordSet <> set def
+not 3508:3508 RecordSetNotations ::record_set:x_'<|'_x_';'_x_';'_'..'_';'_x_':='_x_'|>'
+R3670:3687 RecordUpdate.RecordSet RecordSetNotations <> mod

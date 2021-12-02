@@ -1,0 +1,50 @@
+Set Warnings "-notation-overridden,-parsing,-deprecated-hint-without-locality".
+From Coq Require Import Bool.Bool.
+From Coq Require Import Init.Nat.
+From Coq Require Import Arith.Arith.
+From Coq Require Import Arith.EqNat. Import Nat.
+From Coq Require Import Lia.
+From Coq Require Import Lists.List. Import ListNotations.
+From Coq Require Import Strings.String.
+From PLF Require Import Maps.
+From PLF Require Export Imp.
+From PLF Require Export Stlc.
+From PLF Require Export References.
+Local Open Scope string.
+Require Import String.
+Require Import Bool.
+
+(*
+Inductive fj_com : Type :=
+  | DeclClass (x : string) ( def :  tm).
+
+Notation " e ';' " := e (at level 0, e custom stlc at level 99) : com_scope.
+ Notation "'class' X 'extends' 'Object' '{' def '}'" :  DeclClass X def (at level 0, e custom stlc at level 99) : com_scope. 
+ Notation "'class' X 'extends' Y '{' def '}'" :  DeclSubClass X Y def (at level 0, e custom stlc at level 99) : com_scope. 
+ Notation "'class' X 'extends' '' '{' def '}'" :  DeclClass X def (at level 0, e custom stlc at level 99) : com_scope. 
+*)
+
+(* https://stackoverflow.com/questions/48729276/how-to-prove-properties-with-object-oriented-concepts-in-coq?noredirect=1&lq=1 *)
+Record Pair {A : Type} {B : Type} : Type := mkPair {
+  fst : A;
+  snd : B
+}.
+
+Check @Pair.
+
+Definition PairOfA {A : Type} (a : A) (b : A) := 
+{|  fst := a;
+    snd := b |}.
+
+Check @PairOfA.	 
+Compute (PairOfA nat).
+
+Context {A : Type} {B : Type}. 
+Definition getFst (p: Pair) :=
+  match p with
+    | mkPair x y => x  
+  end.
+Definition setFst {A : Type} (p: Pair) (fst: A): Pair :=
+  match p with
+  | nil => {||}
+  | Teacher t => ..
